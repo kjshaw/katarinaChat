@@ -273,9 +273,9 @@ BOOL isFirstShown = YES;
     
     if (row < chatData.count){
         NSString *chatText = [[chatData objectAtIndex:row] objectForKey:@"text"];
-        cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
+        cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
         UIFont *font = [UIFont systemFontOfSize:14];
-        CGSize size = [chatText sizeWithFont:font constrainedToSize:CGSizeMake(225.0f, 1000.0f) lineBreakMode:UILineBreakModeCharacterWrap];
+        CGSize size = [chatText sizeWithFont:font constrainedToSize:CGSizeMake(225.0f, 1000.0f) lineBreakMode:NSLineBreakByCharWrapping];
         cell.textString.frame = CGRectMake(75, 14, size.width +20, size.height + 20);
         cell.textString.font = [UIFont fontWithName:@"Helvetica" size:14.0];
         cell.textString.text = chatText;
@@ -297,7 +297,7 @@ BOOL isFirstShown = YES;
     NSString *cellText = [[chatData objectAtIndex:chatData.count-indexPath.row-1] objectForKey:@"text"];
     UIFont *cellFont = [UIFont fontWithName:@"Helvetica" size:14.0];
     CGSize constraintSize = CGSizeMake(225.0f, MAXFLOAT);
-    CGSize labelSize = [cellText sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+    CGSize labelSize = [cellText sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:NSLineBreakByWordWrapping];
     
     return labelSize.height + 40;
 }

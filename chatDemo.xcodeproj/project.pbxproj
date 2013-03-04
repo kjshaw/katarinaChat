@@ -365,8 +365,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "chatDemo/chatDemo-Prefix.pch";
 				INFOPLIST_FILE = "chatDemo/chatDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = "armv6 armv7";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,8 +383,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "chatDemo/chatDemo-Prefix.pch";
 				INFOPLIST_FILE = "chatDemo/chatDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = "armv6 armv7";
 				WRAPPER_EXTENSION = app;
 			};
