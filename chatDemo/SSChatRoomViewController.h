@@ -1,5 +1,5 @@
 //
-//  DMChatRoomViewController.h
+//  SSChatRoomViewController.h
 //  chatDemo
 //
 //  Created by David Mendels on 4/14/12.
@@ -11,7 +11,7 @@
 #import "chatCell.h"
 #import "Reachability.h"
 
-@interface DMChatRoomViewController : UIViewController <UITextFieldDelegate,UITableViewDelegate, UITableViewDataSource,PF_EGORefreshTableHeaderDelegate>
+@interface SSChatRoomViewController : UIViewController <UITextFieldDelegate,UITableViewDelegate, UITableViewDataSource,PF_EGORefreshTableHeaderDelegate>
 {
     UITextField             *tfEntry;
     IBOutlet UITableView    *chatTable;

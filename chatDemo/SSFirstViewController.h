@@ -1,5 +1,5 @@
 //
-//  DMSecondViewController.h
+//  SSFirstViewController.h
 //  chatDemo
 //
 //  Created by David Mendels on 4/14/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMSecondViewController : UIViewController
+@interface SSFirstViewController : UIViewController
 
 @end
