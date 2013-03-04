@@ -1,5 +1,5 @@
 //
-//  DMAppDelegate.h
+//  SSAppDelegate.h
 //  chatDemo
 //
 //  Created by David Mendels on 4/14/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface SSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

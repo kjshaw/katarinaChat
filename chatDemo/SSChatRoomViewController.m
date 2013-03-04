@@ -1,22 +1,22 @@
 //
-//  DMChatRoomViewController.m
+//  SSChatRoomViewController.m
 //  chatDemo
 //
 //  Created by David Mendels on 4/14/12.
 //  Copyright (c) 2012 Cognoscens. All rights reserved.
 //
 
-#import "DMChatRoomViewController.h"
+#import "SSChatRoomViewController.h"
 
 #define TABBAR_HEIGHT 49.0f
 #define TEXTFIELD_HEIGHT 70.0f
 #define MAX_ENTRIES_LOADED 25
 
-@interface DMChatRoomViewController ()
+@interface SSChatRoomViewController ()
 
 @end
 
-@implementation DMChatRoomViewController
+@implementation SSChatRoomViewController
 @synthesize tfEntry;
 @synthesize chatTable;
 @synthesize chatData;

@@ -1,15 +1,15 @@
 //
-//  DMAppDelegate.m
+//  SSAppDelegate.m
 //  chatDemo
 //
 //  Created by David Mendels on 4/14/12.
 //  Copyright (c) 2012 Cognoscens. All rights reserved.
 //
 
-#import "DMAppDelegate.h"
+#import "SSAppDelegate.h"
 #import <Parse/Parse.h>
 
-@implementation DMAppDelegate
+@implementation SSAppDelegate
 
 @synthesize window = _window;
 

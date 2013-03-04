@@ -12,18 +12,18 @@
 		7E9D157C1538DFA9006018AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9D157B1538DFA9006018AC /* CoreGraphics.framework */; };
 		7E9D15821538DFA9006018AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15801538DFA9006018AC /* InfoPlist.strings */; };
 		7E9D15841538DFA9006018AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15831538DFA9006018AC /* main.m */; };
-		7E9D15881538DFA9006018AC /* DMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15871538DFA9006018AC /* DMAppDelegate.m */; };
+		7E9D15881538DFA9006018AC /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15871538DFA9006018AC /* SSAppDelegate.m */; };
 		7E9D158B1538DFA9006018AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15891538DFA9006018AC /* MainStoryboard.storyboard */; };
-		7E9D158E1538DFA9006018AC /* DMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D158D1538DFA9006018AC /* DMFirstViewController.m */; };
+		7E9D158E1538DFA9006018AC /* SSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D158D1538DFA9006018AC /* SSFirstViewController.m */; };
 		7E9D15901538DFA9006018AC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D158F1538DFA9006018AC /* first.png */; };
 		7E9D15921538DFA9006018AC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15911538DFA9006018AC /* first@2x.png */; };
-		7E9D15951538DFA9006018AC /* DMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15941538DFA9006018AC /* DMSecondViewController.m */; };
+		7E9D15951538DFA9006018AC /* SSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15941538DFA9006018AC /* SSSecondViewController.m */; };
 		7E9D15971538DFA9006018AC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15961538DFA9006018AC /* second.png */; };
 		7E9D15991538DFA9006018AC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15981538DFA9006018AC /* second@2x.png */; };
 		7E9D15A31538E519006018AC /* chatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15A21538E519006018AC /* chatCell.m */; };
 		7E9D15A61538E8BF006018AC /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15A41538E8BF006018AC /* chat.png */; };
 		7E9D15A71538E8BF006018AC /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D15A51538E8BF006018AC /* chat@2x.png */; };
-		7E9D15AA1538F0CE006018AC /* DMChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15A91538F0CE006018AC /* DMChatRoomViewController.m */; };
+		7E9D15AA1538F0CE006018AC /* SSChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D15A91538F0CE006018AC /* SSChatRoomViewController.m */; };
 		7E9E9C4215398275006BDBF9 /* textfield_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E9C4015398275006BDBF9 /* textfield_background.png */; };
 		7E9E9C4315398275006BDBF9 /* textfield_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E9C4115398275006BDBF9 /* textfield_background@2x.png */; };
 		7E9E9C45153B16E4006BDBF9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9E9C44153B16E4006BDBF9 /* Parse.framework */; };
@@ -48,23 +48,23 @@
 		7E9D15811538DFA9006018AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E9D15831538DFA9006018AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E9D15851538DFA9006018AC /* chatDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chatDemo-Prefix.pch"; sourceTree = "<group>"; };
-		7E9D15861538DFA9006018AC /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
-		7E9D15871538DFA9006018AC /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
+		7E9D15861538DFA9006018AC /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		7E9D15871538DFA9006018AC /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
 		7E9D158A1538DFA9006018AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7E9D158C1538DFA9006018AC /* DMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMFirstViewController.h; sourceTree = "<group>"; };
-		7E9D158D1538DFA9006018AC /* DMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMFirstViewController.m; sourceTree = "<group>"; };
+		7E9D158C1538DFA9006018AC /* SSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSFirstViewController.h; sourceTree = "<group>"; };
+		7E9D158D1538DFA9006018AC /* SSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSFirstViewController.m; sourceTree = "<group>"; };
 		7E9D158F1538DFA9006018AC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		7E9D15911538DFA9006018AC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		7E9D15931538DFA9006018AC /* DMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSecondViewController.h; sourceTree = "<group>"; };
-		7E9D15941538DFA9006018AC /* DMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSecondViewController.m; sourceTree = "<group>"; };
+		7E9D15931538DFA9006018AC /* SSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSSecondViewController.h; sourceTree = "<group>"; };
+		7E9D15941538DFA9006018AC /* SSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSSecondViewController.m; sourceTree = "<group>"; };
 		7E9D15961538DFA9006018AC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		7E9D15981538DFA9006018AC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		7E9D15A11538E519006018AC /* chatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
 		7E9D15A21538E519006018AC /* chatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
 		7E9D15A41538E8BF006018AC /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
 		7E9D15A51538E8BF006018AC /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
-		7E9D15A81538F0CE006018AC /* DMChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMChatRoomViewController.h; sourceTree = "<group>"; };
-		7E9D15A91538F0CE006018AC /* DMChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMChatRoomViewController.m; sourceTree = "<group>"; };
+		7E9D15A81538F0CE006018AC /* SSChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSChatRoomViewController.h; sourceTree = "<group>"; };
+		7E9D15A91538F0CE006018AC /* SSChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSChatRoomViewController.m; sourceTree = "<group>"; };
 		7E9E9C4015398275006BDBF9 /* textfield_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfield_background.png; sourceTree = "<group>"; };
 		7E9E9C4115398275006BDBF9 /* textfield_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textfield_background@2x.png"; sourceTree = "<group>"; };
 		7E9E9C44153B16E4006BDBF9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 				7E9D159F1538E2AE006018AC /* artwork */,
 				7E9E9C72153B62DF006BDBF9 /* Utils */,
 				7E9D15A01538E2FC006018AC /* ViewControllers */,
-				7E9D15861538DFA9006018AC /* DMAppDelegate.h */,
-				7E9D15871538DFA9006018AC /* DMAppDelegate.m */,
+				7E9D15861538DFA9006018AC /* SSAppDelegate.h */,
+				7E9D15871538DFA9006018AC /* SSAppDelegate.m */,
 				7E9D15A11538E519006018AC /* chatCell.h */,
 				7E9D15A21538E519006018AC /* chatCell.m */,
 				7E9D15891538DFA9006018AC /* MainStoryboard.storyboard */,
@@ -184,12 +184,12 @@
 		7E9D15A01538E2FC006018AC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7E9D158C1538DFA9006018AC /* DMFirstViewController.h */,
-				7E9D158D1538DFA9006018AC /* DMFirstViewController.m */,
-				7E9D15931538DFA9006018AC /* DMSecondViewController.h */,
-				7E9D15941538DFA9006018AC /* DMSecondViewController.m */,
-				7E9D15A81538F0CE006018AC /* DMChatRoomViewController.h */,
-				7E9D15A91538F0CE006018AC /* DMChatRoomViewController.m */,
+				7E9D158C1538DFA9006018AC /* SSFirstViewController.h */,
+				7E9D158D1538DFA9006018AC /* SSFirstViewController.m */,
+				7E9D15931538DFA9006018AC /* SSSecondViewController.h */,
+				7E9D15941538DFA9006018AC /* SSSecondViewController.m */,
+				7E9D15A81538F0CE006018AC /* SSChatRoomViewController.h */,
+				7E9D15A91538F0CE006018AC /* SSChatRoomViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -229,9 +229,9 @@
 		7E9D156A1538DFA9006018AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DM;
+				CLASSPREFIX = SS;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = Cognoscens;
+				ORGANIZATIONNAME = ShareSlate;
 			};
 			buildConfigurationList = 7E9D156D1538DFA9006018AC /* Build configuration list for PBXProject "chatDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -279,11 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E9D15841538DFA9006018AC /* main.m in Sources */,
-				7E9D15881538DFA9006018AC /* DMAppDelegate.m in Sources */,
-				7E9D158E1538DFA9006018AC /* DMFirstViewController.m in Sources */,
-				7E9D15951538DFA9006018AC /* DMSecondViewController.m in Sources */,
+				7E9D15881538DFA9006018AC /* SSAppDelegate.m in Sources */,
+				7E9D158E1538DFA9006018AC /* SSFirstViewController.m in Sources */,
+				7E9D15951538DFA9006018AC /* SSSecondViewController.m in Sources */,
 				7E9D15A31538E519006018AC /* chatCell.m in Sources */,
-				7E9D15AA1538F0CE006018AC /* DMChatRoomViewController.m in Sources */,
+				7E9D15AA1538F0CE006018AC /* SSChatRoomViewController.m in Sources */,
 				7E9E9C73153B653D006BDBF9 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

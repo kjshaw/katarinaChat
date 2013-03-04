@@ -1,18 +1,18 @@
 //
-//  DMSecondViewController.m
+//  SSFirstViewController.m
 //  chatDemo
 //
 //  Created by David Mendels on 4/14/12.
 //  Copyright (c) 2012 Cognoscens. All rights reserved.
 //
 
-#import "DMSecondViewController.h"
+#import "SSFirstViewController.h"
 
-@interface DMSecondViewController ()
+@interface SSFirstViewController ()
 
 @end
 
-@implementation DMSecondViewController
+@implementation SSFirstViewController
 
 - (void)viewDidLoad
 {
